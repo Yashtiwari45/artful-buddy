@@ -50,6 +50,15 @@ Access the live platform here: [Artfull Learning Buddy](https://artful-learning-
 
 Imagine a student eager to learn coding but struggling to find personalized resources. Upon accessing Artfull Learning Buddy, the student selects the Coding domain and specifies their proficiency level. The platform then generates tailored video tutorials and code snippets, adapting to the student's learning pace. Additionally, it recommends relevant YouTube videos for broader understanding. The multi-language support ensures that the student comprehends the material in their preferred language, making the learning experience seamless and effective.
 
+## Team
+
+Artful Buddy is developed by Team One Direction, a group of passionate developers and educators dedicated to revolutionizing education through technology. Our team consists of:
+
+- [Your Name] - Project Lead & Full Stack Developer
+- [Collaborator's Name] - AI/ML Specialist
+- [Collaborator's Name] - UI/UX Designer
+- [Collaborator's Name] - Educational Content Specialist
+
 ## About the Project
 
 Artfull Learning Buddy was developed with the vision of making quality education accessible to all, harnessing the power of AI to personalize and enhance the learning experience. The project is the result of collaborative efforts by [Your Name] and [Collaborator's Name], who are passionate about integrating technology into education to foster better learning outcomes.

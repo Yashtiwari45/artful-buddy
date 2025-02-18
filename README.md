@@ -29,6 +29,16 @@ Access the live platform here: [Artfull Learning Buddy](https://artful-learning-
 7. **Real-Time Updates**
    - Incorporates feedback to continuously improve and update educational content.
 
+## Technical Stack
+
+- **Frontend**: React, TypeScript, Tailwind CSS
+- **AI Integration**: Gemini AI for content generation
+- **State Management**: React Query
+- **Form Handling**: React Hook Form with Zod validation
+- **UI Components**: Shadcn UI
+- **Deployment**: Vercel
+- **Version Control**: Git & GitHub
+
 ## Screenshots
 
 # Homepage

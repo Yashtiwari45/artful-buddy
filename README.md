@@ -39,6 +39,35 @@ Access the live platform here: [Artfull Learning Buddy](https://artful-learning-
 - **Deployment**: Vercel
 - **Version Control**: Git & GitHub
 
+## Installation Guide
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/artful-buddy.git
+   cd artful-buddy
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Set up environment variables**
+   Create a `.env` file in the root directory and add:
+   ```env
+   VITE_GEMINI_API_KEY=your_api_key_here
+   ```
+
+4. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+5. **Build for production**
+   ```bash
+   npm run build
+   ```
+
 ## Screenshots
 
 # Homepage

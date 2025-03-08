@@ -100,7 +100,26 @@ Artful Buddy is developed by Team One Direction, a group of passionate developer
 
 ## About the Project
 
-Artfull Learning Buddy was developed with the vision of making quality education accessible to all, harnessing the power of AI to personalize and enhance the learning experience. The project is the result of collaborative efforts by [Your Name] and [Collaborator's Name], who are passionate about integrating technology into education to foster better learning outcomes.
+Artfull Learning Buddy was developed with the vision of making quality education accessible to all, harnessing the power of AI to personalize and enhance the learning experience. The project is the result of collaborative efforts by [Your Name] and [Collaborator's Name], who are passionate about integrating technology into education to foster better learning outcomes.
+
+## Contributing
+
+We welcome contributions to Artful Buddy! Here's how you can help:
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'feat: add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+Please make sure to update tests as appropriate and follow our code of conduct.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+Built with ❤️ by Team One Direction
 
 
 

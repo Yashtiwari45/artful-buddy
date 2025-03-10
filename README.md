@@ -118,6 +118,48 @@ Please make sure to update tests as appropriate and follow our code of conduct.
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## Project Milestones
+
+### Phase 1 (Completed)
+- ✅ Basic AI content generation
+- ✅ Multi-language support
+- ✅ YouTube integration
+- ✅ Responsive UI
+
+### Phase 2 (In Progress)
+- 🔄 Advanced content personalization
+- 🔄 Interactive learning modules
+- 🔄 Progress tracking
+- 🔄 Community features
+
+### Phase 3 (Planned)
+- 📅 Mobile app development
+- 📅 Offline learning support
+- 📅 Advanced analytics
+- 📅 Integration with learning management systems
+
+## Roadmap
+
+Q1 2025:
+- [x] Initial release
+- [x] Basic content generation
+- [x] Multi-language support
+
+Q2 2025:
+- [ ] Advanced personalization
+- [ ] Progress tracking
+- [ ] Community features
+
+Q3 2025:
+- [ ] Mobile app development
+- [ ] Offline support
+- [ ] Advanced analytics
+
+Q4 2025:
+- [ ] LMS integration
+- [ ] AI tutor features
+- [ ] Global expansion
+
 ---
 Built with ❤️ by Team One Direction
 

@@ -32,15 +32,18 @@ Access the live platform here: [Artfull Learning Buddy](https://artful-learning-
 ## Screenshots
 
 ![Homepage]
+##
 *Homepage of Artfull Learning Buddy showcasing the main interface.*
-![Screenshot 2025-03-27 113240](https://github.com/user-attachments/assets/31e0994b-d4ab-4a64-8116-baa1245478a6)
+![Screenshot 2025-03-27 113240](https://github.com/user-attachments/assets/31e0994b-d4ab-4a64-8116-baa1245478a6)\
 
+##
 ![Multi-Language Support]
+
 *Demonstration of multi-language content availability.
 ![image](https://github.com/user-attachments/assets/eb157364-d017-452a-874e-b93fb07e2771)
+## 
+
 ![Screenshot 2025-03-27 131355](https://github.com/user-attachments/assets/5b3d24cd-195f-46a9-81d7-817e71d6424a)
-
-
 
 
 ## Use Case Example

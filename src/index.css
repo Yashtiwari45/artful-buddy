@@ -1,0 +1,121 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 40% 98%;
+    --foreground: 220 25% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 25% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 25% 10%;
+
+    --primary: 210 90% 50%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 215 25% 96%;
+    --secondary-foreground: 220 25% 20%;
+
+    --muted: 215 25% 94%;
+    --muted-foreground: 220 15% 40%;
+
+    --accent: 210 90% 95%;
+    --accent-foreground: 220 25% 20%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 20% 90%;
+    --input: 220 20% 90%;
+    --ring: 210 90% 50%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5% 26%;
+    --sidebar-primary: 240 6% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 5% 96%;
+    --sidebar-accent-foreground: 240 6% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217 91% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-medium tracking-tight;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white bg-opacity-70 backdrop-blur-md border border-white border-opacity-20 shadow-glass rounded-2xl;
+  }
+  
+  .container-padding {
+    @apply px-6 md:px-12 xl:px-0;
+  }
+  
+  .animate-delay-1 {
+    animation-delay: 0.1s;
+  }
+  
+  .animate-delay-2 {
+    animation-delay: 0.2s;
+  }
+  
+  .animate-delay-3 {
+    animation-delay: 0.3s;
+  }
+  
+  .animate-delay-4 {
+    animation-delay: 0.4s;
+  }
+  
+  .animate-delay-5 {
+    animation-delay: 0.5s;
+  }
+  
+  .section-transition {
+    @apply transition-all duration-500 ease-in-out;
+  }
+  
+  .premium-button {
+    @apply relative overflow-hidden bg-primary text-primary-foreground rounded-full px-8 py-3 font-medium transition-all duration-300 hover:shadow-lg hover:translate-y-[-2px] active:translate-y-[0px] active:shadow-md;
+  }
+  
+  .subtle-input {
+    @apply bg-secondary border-0 px-4 py-3 rounded-xl focus:ring-2 focus:ring-primary/20 focus:outline-none transition-all duration-300;
+  }
+  
+  .subject-card {
+    @apply rounded-3xl overflow-hidden p-6 transition-all duration-300 hover:shadow-premium;
+  }
+  
+  .shimmer {
+    @apply relative overflow-hidden;
+  }
+  
+  .shimmer::after {
+    content: "";
+    @apply absolute top-0 left-0 w-full h-full bg-shimmer-gradient bg-[length:200%_100%] animate-shimmer;
+  }
+  
+  .text-gradient-primary {
+    @apply bg-gradient-to-br from-primary to-primary/70 bg-clip-text text-transparent;
+  }
+}

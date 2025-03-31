@@ -74,7 +74,7 @@ const ChartRenderer: React.FC<ChartRendererProps> = ({ chartData }) => {
     return (
       <div className="glass-card p-6">
         <h3 className="text-lg font-medium mb-4">Visual Representation</h3>
-        <div className="h-[300px] w-full">
+        <div className=" w-full">
           <ResponsiveContainer width="100%" height="100%">
             <PieChart>
               <Pie
@@ -105,7 +105,7 @@ const ChartRenderer: React.FC<ChartRendererProps> = ({ chartData }) => {
     return (
       <div className="glass-card p-6">
         <h3 className="text-lg font-medium mb-4">Visual Representation</h3>
-        <div className="h-[300px] w-full">
+        <div className="w-full">
           <ChartContainer config={chartConfig}>
             <BarChart data={formattedData}>
               <CartesianGrid strokeDasharray="3 3" />

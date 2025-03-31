@@ -2,7 +2,7 @@ import { ContentRequest, ContentResponse, Subject } from "./types";
 import { generateVideo } from "./videoService";
 
 // To be replaced with your actual API key
-const API_KEY = "AIzaSyAAcLjiN1r6Um-OLRQC-CnEurpv3osiShs";
+const API_KEY = "AIzaSyDd-3k_XdRHhpszC80bXfBqcsrY_DeQqkQ";
 const API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent";
 
 export async function generateContent(request: ContentRequest): Promise<ContentResponse> {

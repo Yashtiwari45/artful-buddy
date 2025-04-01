@@ -9,6 +9,7 @@ import MusicNotesRenderer from './MusicNotesRenderer';
 import VisualArtsGallery from './VisualArtsGallery';
 import SongDisplay from './SongDisplay';
 import ChatDialog from './ChatDialog';
+import CodeEditor from './CodeEditor';
 import { Button } from './ui/button';
 
 interface ContentPreviewProps {
@@ -32,6 +33,7 @@ const ContentPreview: React.FC<ContentPreviewProps> = ({
 }) => {
   const [showDetailedContent, setShowDetailedContent] = useState(false);
   const [chatOpen, setChatOpen] = useState(false);
+  const [showEditor, setShowEditor] = useState(false);
 
   const handleSavePDF = () => {
     if (content && subject && topic) {
@@ -182,11 +184,17 @@ const ContentPreview: React.FC<ContentPreviewProps> = ({
 
           {content.codeSnippet && <div className="mb-6">
             <h3 className="text-lg font-medium mb-3">Code Snippet</h3>
-            <div className="bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto">
+            <div className="mb-4 bg-gray-900 text-gray-100 p-4 rounded-lg overflow-x-auto">
               <pre>
                 <code>{content.codeSnippet}</code>
               </pre>
             </div>
+            {content.programmingLanguage && (
+              <CodeEditor 
+                code={content.codeSnippet} 
+                language={content.programmingLanguage}
+              />
+            )}
           </div>}
 
           {content.videoScript && <div>

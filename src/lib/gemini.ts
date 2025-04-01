@@ -125,7 +125,8 @@ Please format your response as JSON with the following structure:
     }
   } else if (request.subject === 'Coding') {
     prompt += `,
-  "codeSnippet": "Sample code in ${request.programmingLanguage || 'JavaScript'} that demonstrates a concept"`;
+  "codeSnippet": "Sample code in ${request.programmingLanguage || 'JavaScript'} that demonstrates a concept",
+  "programmingLanguage": "${request.programmingLanguage || 'JavaScript'}"`;
   } else if (request.subject === 'Financial Literacy') {
     prompt += `,
   "financialData": {
@@ -204,6 +205,8 @@ function parseResponse(data: any, subject: string): ContentResponse {
       // Add subject-specific data
       if (subject === 'Coding' || parsedResponse.codeSnippet) {
         response.codeSnippet = parsedResponse.codeSnippet || "";
+        // Include the programming language from the request
+        response.programmingLanguage = parsedResponse.programmingLanguage || "JavaScript";
       }
 
       if ((subject === 'Visual Arts' || parsedResponse.chartData) && parsedResponse.chartData) {

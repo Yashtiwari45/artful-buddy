@@ -64,6 +64,7 @@ export interface ContentResponse {
   detailedContent?: string;
   songLyrics?: string;
   songChords?: string;
+  programmingLanguage?: ProgrammingLanguage;
 }
 
 export interface VisualArtsImage {

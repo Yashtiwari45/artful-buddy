@@ -58,7 +58,7 @@ const CodeEditor: React.FC<CodeEditorProps> = ({ code, language, height = '600px
           ref={iframeRef}
           frameBorder="0"
           height={height}
-          src={`https://onecompiler.com/embed/${oneCompilerLanguage}?theme=dark&hideLanguageSelection=true&hideNew=true&hideNewFileOption=true&disableCopyPaste=true&disableAutoComplete=true&hideStdin=true&hideTitle=true&codeChangeEvent=true`}
+          src={`https://onecompiler.com/embed/${oneCompilerLanguage}?theme=dark&hideLanguageSelection=true&hideNew=true&hideNewFileOption=true&disableAutoComplete=true&hideStdin=true&hideTitle=true&codeChangeEvent=true`}
           width="100%"
         />
       </div>

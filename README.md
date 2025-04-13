@@ -29,6 +29,45 @@ Access the live platform here: [Artfull Learning Buddy](https://artful-learning-
 7. **Real-Time Updates**
    - Incorporates feedback to continuously improve and update educational content.
 
+## Technical Stack
+
+- **Frontend**: React, TypeScript, Tailwind CSS
+- **AI Integration**: Gemini AI for content generation
+- **State Management**: React Query
+- **Form Handling**: React Hook Form with Zod validation
+- **UI Components**: Shadcn UI
+- **Deployment**: Vercel
+- **Version Control**: Git & GitHub
+
+## Installation Guide
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/artful-buddy.git
+   cd artful-buddy
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Set up environment variables**
+   Create a `.env` file in the root directory and add:
+   ```env
+   VITE_GEMINI_API_KEY=your_api_key_here
+   ```
+
+4. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+5. **Build for production**
+   ```bash
+   npm run build
+   ```
+
 ## Screenshots
 
 # Homepage
@@ -50,9 +89,37 @@ Access the live platform here: [Artfull Learning Buddy](https://artful-learning-
 
 Imagine a student eager to learn coding but struggling to find personalized resources. Upon accessing Artfull Learning Buddy, the student selects the Coding domain and specifies their proficiency level. The platform then generates tailored video tutorials and code snippets, adapting to the student's learning pace. Additionally, it recommends relevant YouTube videos for broader understanding. The multi-language support ensures that the student comprehends the material in their preferred language, making the learning experience seamless and effective.
 
+## Team
+
+Artful Buddy is developed by Team One Direction, a group of passionate developers and educators dedicated to revolutionizing education through technology. Our team consists of:
+
+- [Your Name] - Project Lead & Full Stack Developer
+- [Collaborator's Name] - AI/ML Specialist
+- [Collaborator's Name] - UI/UX Designer
+- [Collaborator's Name] - Educational Content Specialist
+
 ## About the Project
 
-Artfull Learning Buddy was developed with the vision of making quality education accessible to all, harnessing the power of AI to personalize and enhance the learning experience. The project is the result of collaborative efforts by [Your Name] and [Collaborator's Name], who are passionate about integrating technology into education to foster better learning outcomes.
+Artfull Learning Buddy was developed with the vision of making quality education accessible to all, harnessing the power of AI to personalize and enhance the learning experience. The project is the result of collaborative efforts by [Your Name] and [Collaborator's Name], who are passionate about integrating technology into education to foster better learning outcomes.
+
+## Contributing
+
+We welcome contributions to Artful Buddy! Here's how you can help:
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'feat: add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+Please make sure to update tests as appropriate and follow our code of conduct.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+Built with ❤️ by Team One Direction
 
 
 
